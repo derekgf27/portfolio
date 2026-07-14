@@ -12,7 +12,7 @@ export default function ContactPage() {
         <SectionHeader
           eyebrow="Contact"
           title="Let's connect"
-          description="Open to software engineering opportunities and projects where operational impact is the priority."
+          description="Open to software engineering roles and client projects where shipping reliable software matters."
           align="center"
         />
 

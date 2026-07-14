@@ -8,7 +8,7 @@ import { careerPath, siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About — Derek Garcia",
   description:
-    "Computer Science graduate building operational software through professional internships and production applications.",
+    "Computer Science graduate building operational software and custom client websites through internships and shipped production projects.",
 };
 
 export default function AboutPage() {
@@ -18,7 +18,7 @@ export default function AboutPage() {
         <SectionHeader
           eyebrow="About"
           title="Engineering operational software"
-          description="I don't just write code — I build systems that help teams work smarter."
+          description="I don't just write code — I build systems and sites that help teams and businesses work smarter."
         />
 
         <div className="mt-16 grid gap-16 lg:grid-cols-5">
@@ -31,22 +31,24 @@ export default function AboutPage() {
                 that don&apos;t break under real-world use.
               </p>
               <p>
-                My work spans baseball analytics, hospitality operations, and
-                enterprise IT — three different domains united by the same
-                principle: translate complex business requirements into software
-                people actually use.
+                My work spans baseball analytics, hospitality operations,
+                enterprise IT, and custom websites for local businesses —
+                domains united by the same principle: translate complex
+                requirements into software people actually use.
               </p>
               <p>
                 I think in systems. Before writing code, I ask what problem
                 exists, who feels it, and what a successful outcome looks like.
                 That mindset shaped every product in my portfolio — from
-                pitch-by-pitch analytics to automated event pricing engines.
+                pitch-by-pitch analytics and automated event pricing to client
+                sites like Ponce Floor and RIR Elevate Group.
               </p>
               <p>
                 What drives me is the moment software removes friction — when a
                 coach sees a pattern they couldn&apos;t before, when event staff
                 stop double-booking rooms, when IT teams finally have one source
-                of truth for their assets.
+                of truth for their assets, or when a business gets clear leads
+                from a site built for how their customers already reach them.
               </p>
             </div>
 

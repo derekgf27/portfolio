@@ -6,7 +6,7 @@ import { projects } from "@/lib/projects";
 export const metadata: Metadata = {
   title: "Projects — Derek Garcia",
   description:
-    "Production applications including baseball analytics, event reservation management, and enterprise IT systems.",
+    "Production applications and client websites — baseball analytics, event reservations, enterprise IT, and custom business sites.",
 };
 
 export default function ProjectsPage() {
@@ -16,7 +16,7 @@ export default function ProjectsPage() {
         <SectionHeader
           eyebrow="Portfolio"
           title="Products & case studies"
-          description="Each project represents a real operational problem — designed, engineered, and shipped to production standards."
+          description="Each project is a real problem — analytics platforms, ops tools, and custom business websites designed and shipped to production."
         />
 
         <div className="mt-20 space-y-32">

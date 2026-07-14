@@ -187,7 +187,7 @@ export default async function ProjectPage({ params }: Props) {
         <div className="mx-auto max-w-6xl px-6">
           <h2 className="text-2xl font-semibold tracking-tight">Screenshots</h2>
           <p className="mt-2 text-muted">
-            Interface views across dashboard, analytics, and operational workflows.
+            Interface views across dashboards, marketing pages, and key product workflows.
           </p>
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {project.screenshots.map((shot) => (

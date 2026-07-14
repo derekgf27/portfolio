@@ -9,7 +9,7 @@ export function Footer() {
         <div>
           <p className="text-sm font-medium text-foreground">{siteConfig.name}</p>
           <p className="mt-1 max-w-sm text-sm text-muted">
-            Building production-ready software that improves how organizations operate.
+            Building production software and custom websites that help organizations and local businesses operate and grow.
           </p>
         </div>
 

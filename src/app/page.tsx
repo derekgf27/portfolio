@@ -36,9 +36,9 @@ export default function HomePage() {
               </p>
 
               <p className="mt-6 max-w-xl text-base leading-relaxed text-foreground md:text-lg">
-                Analytics platforms, reservation systems, and enterprise tools —
-                built end-to-end and deployed for teams that need them to work
-                every day.
+                Analytics platforms, reservation systems, enterprise tools, and
+                custom business websites — built end-to-end and shipped for
+                teams and clients that need them to work every day.
               </p>
 
               <div className="mt-10 flex flex-wrap gap-3">
@@ -67,7 +67,7 @@ export default function HomePage() {
           <SectionHeader
             eyebrow="Products"
             title="Software that solves real problems"
-            description="Operational platforms and analytics systems built for production — not prototypes."
+            description="Operational platforms, analytics systems, and custom client websites — built for production, not prototypes."
           />
 
           <div className="mt-20 space-y-28">
@@ -114,8 +114,8 @@ export default function HomePage() {
             Ready to build something that matters?
           </h2>
           <p className="mx-auto mt-4 max-w-lg text-muted">
-            I&apos;m open to software engineering roles and projects where
-            operational impact is the goal.
+            I&apos;m open to software engineering roles and client projects
+            where shipping reliable software is the goal.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Button href="/contact" variant="primary">

@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Derek Garcia Ferrer",
   title: "Derek Garcia — Software Engineer",
   description:
-    "Derek Garcia builds production-ready software that streamlines operations, transforms data into actionable insights, and helps organizations make better decisions.",
+    "Derek Garcia builds production software and custom client websites — analytics platforms, reservation systems, enterprise tools, and business marketing sites shipped for real use.",
   url: "https://derekgarcia.tech",
   email: "derekgf27@gmail.com",
   phone: "939-222-6929",
@@ -15,17 +15,17 @@ export const siteConfig = {
   rotatingTitles: [
     "Software Engineer",
     "Full-Stack Engineer",
-    "Building Operational Software",
+    "Operational Platforms",
     "Data & Analytics Systems",
-    "React • Next.js • TypeScript",
+    "Custom Business Websites",
   ],
 };
 
 export const metrics = [
-  { value: "3+", label: "Production Applications" },
+  { value: "5", label: "Shipped Projects" },
   { value: "3", label: "Professional Internships" },
   { value: "40+", label: "Advanced Baseball Metrics" },
-  { value: "500", label: "Max Event Capacity Supported" },
+  { value: "2", label: "Client Marketing Sites" },
   { value: "Cloud", label: "Firebase · Supabase · Vercel" },
 ];
 
@@ -33,7 +33,7 @@ export const philosophy = [
   {
     title: "Build Real Solutions",
     description:
-      "I focus on software that solves operational problems — scheduling, inventory, analytics, and workflows that teams rely on every day.",
+      "I focus on software that solves real problems — scheduling, inventory, analytics, workflows, and client websites that help businesses reach customers.",
   },
   {
     title: "Design Before Code",
@@ -48,19 +48,22 @@ export const philosophy = [
 ];
 
 export const techStack = {
-  frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+  frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML/CSS"],
   backend: ["Node.js", "ASP.NET", "REST APIs"],
   databases: ["PostgreSQL", "SQL Server", "Supabase", "Firebase Firestore"],
   cloud: ["Vercel", "Firebase", "Supabase"],
   tools: ["Git", "GitHub", "VS Code", "Figma"],
-  languages: ["TypeScript", "JavaScript", "Python", "SQL", "C#"],
+  languages: ["TypeScript", "JavaScript", "Python", "SQL"],
 };
 
 export const careerPath = [
   { stage: "Computer Science", detail: "Foundation in algorithms, systems, and software design" },
   { stage: "IT Internship", detail: "Enterprise infrastructure and operational support" },
   { stage: "Software Engineering Internships", detail: "Full-stack development in production environments" },
-  { stage: "Building Operational Software", detail: "Shipping products that improve how organizations run" },
+  {
+    stage: "Shipping Products & Client Sites",
+    detail: "Analytics platforms, ops tools, and custom websites for real businesses",
+  },
 ];
 
 export const heroTechIcons = [

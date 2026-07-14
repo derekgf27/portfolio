@@ -215,6 +215,134 @@ export const projects: ProjectCaseStudy[] = [
       { label: "Inventory Search", variant: "dashboard" },
     ],
   },
+  {
+    slug: "ponce-floor",
+    title: "Ponce Floor",
+    subtitle: "Floor Cleaning Services Website",
+    tagline: "Custom marketing site for a Puerto Rico cleaning business",
+    description:
+      "Custom Spanish-first marketing website for Ponce Floors & Cleaning Services — floor restoration, commercial cleaning, and island-wide service with WhatsApp and form-based lead capture.",
+    longDescription:
+      "Ponce Floor is a custom business site for a Puerto Rico floor care company with 30+ years of experience. It covers services (diamond polishing, restoration, sealing), owner story, gallery, testimonials, and free-quote CTAs via Formspree and WhatsApp.",
+    tech: ["HTML", "CSS", "JavaScript", "Formspree", "Font Awesome", "Vercel"],
+    accomplishments: [
+      "Designed and shipped a production marketing site on poncefloor.com",
+      "Built Spanish-first UX with clear CTAs for quotes and WhatsApp contact",
+      "Implemented service gallery, owner story, and client testimonial sections",
+      "Integrated Formspree-backed contact form for lead capture",
+    ],
+    liveUrl: "https://www.poncefloor.com/",
+    githubUrl: "https://github.com/derekgf27/PonceFloor",
+    accent: "#DC143C",
+    metrics: [
+      { value: "Island-wide", label: "Service Coverage" },
+      { value: "30+", label: "Years Experience Showcased" },
+      { value: "ES", label: "Spanish-First Content" },
+    ],
+    problem:
+      "An established floor cleaning business relied on word-of-mouth and social media without a professional web presence. Potential commercial and residential clients had no central place to review services, see results, or request quotes.",
+    solution:
+      "A custom responsive website that presents the brand, services, and owner story clearly in Spanish — with prominent free-consultation and WhatsApp CTAs so visitors can reach the business in one tap.",
+    keyFeatures: [
+      "Hero with dual CTAs (free consultation + WhatsApp)",
+      "Mission, vision, and owner biography sections",
+      "Floor care and commercial cleaning service listings",
+      "Photo/video gallery of completed work",
+      "Client testimonials from local businesses",
+      "Contact form with service-type selection and Formspree delivery",
+      "Mobile-responsive layout and sticky WhatsApp float button",
+    ],
+    architecture:
+      "Static multi-section landing page (HTML/CSS/JS) with Formspree for contact submissions. Deployed to Vercel and served on a custom domain (poncefloor.com). No backend app server — marketing content and assets are static for fast loads and simple hosting.",
+    databaseDesign:
+      "No relational database. Lead inquiries are submitted through Formspree and delivered by email. Media assets (gallery images/videos, brand logo) are stored as static files alongside the site.",
+    technicalChallenges: [
+      "Balancing rich media (gallery photos/videos) with fast mobile performance",
+      "Designing a Spanish-first layout that still feels premium for commercial clients",
+      "Wiring reliable lead capture without maintaining a custom backend",
+    ],
+    lessonsLearned: [
+      "Local service businesses convert when contact options match how customers already communicate — especially WhatsApp",
+      "Clear service lists and social proof matter more than flashy effects on service sites",
+      "Static sites with form SaaS keep ownership costs low for small business clients",
+    ],
+    futureImprovements: [
+      "Lightbox gallery for before/after comparisons",
+      "Google Maps embed for service area visibility",
+      "Analytics and conversion tracking on CTAs",
+      "Online quote request flow with photo upload",
+    ],
+    screenshots: [
+      { label: "Marketing Home", variant: "dashboard" },
+      { label: "Services Overview", variant: "admin" },
+      { label: "Mobile Layout", variant: "mobile" },
+      { label: "Contact Form", variant: "scheduling" },
+    ],
+  },
+  {
+    slug: "rir-elevate",
+    title: "RIR Elevate Group",
+    subtitle: "Business Consulting Website",
+    tagline: "Personal brand site for a business transformation consultant",
+    description:
+      "Custom marketing website for RIR Elevate Group — showcasing Rafael Irizarry’s consulting services in operational excellence, business transformation, and industrial management.",
+    longDescription:
+      "RIR Elevate Group is a polished personal-brand site for a business consultant with 20+ years of experience. It presents specialization areas, service offerings, an ELEVATE methodology, client testimonials, media, FAQ, and a consultation request form — with bilingual EN/ES support.",
+    tech: ["HTML", "CSS", "JavaScript", "EmailJS", "Vercel"],
+    accomplishments: [
+      "Shipped a production consulting site on rirelevategroup.com",
+      "Built bilingual EN/ES content toggle for local and broader audiences",
+      "Structured services, methodology, testimonials, media, and FAQ for lead conversion",
+      "Integrated EmailJS consultation form with service-type selection",
+    ],
+    liveUrl: "https://www.rirelevategroup.com/",
+    githubUrl: "https://github.com/derekgf27/RIR-Elevate-Group",
+    accent: "#EAB308",
+    metrics: [
+      { value: "EN/ES", label: "Bilingual Toggle" },
+      { value: "20+", label: "Years Experience Highlighted" },
+      { value: "3", label: "Core Service Lines" },
+    ],
+    problem:
+      "A business transformation consultant needed a professional web presence that communicated credibility, clarified service offerings, and made it easy for executives and organizations to request a consultation.",
+    solution:
+      "A custom dark-themed branding site that centers the consultant’s personal brand, explains the ELEVATE process, and funnels visitors toward LinkedIn, social channels, or an EmailJS-powered consultation form.",
+    keyFeatures: [
+      "Hero with dual CTAs (Consult Now / View Services)",
+      "About section with credentials and cross-industry experience",
+      "Specialization and consulting service cards",
+      "Three-step ELEVATE methodology",
+      "Testimonial carousel and media section",
+      "FAQ accordion and bilingual EN/ES toggle",
+      "Consultation form via EmailJS",
+    ],
+    architecture:
+      "Static HTML/CSS/JS marketing site deployed on Vercel with a custom domain. Client-side EmailJS handles consultation submissions without a custom backend.",
+    databaseDesign:
+      "No relational database. Consultation leads are sent through EmailJS; site content and brand assets are stored as static files.",
+    technicalChallenges: [
+      "Supporting bilingual EN/ES content without duplicating page structure",
+      "Keeping a premium dark brand look readable across mobile breakpoints",
+      "Wiring reliable consultation email delivery with EmailJS",
+    ],
+    lessonsLearned: [
+      "Consulting sites convert when credibility signals and a clear “request consult” path are obvious",
+      "Bilingual toggles are essential for Puerto Rico–based professional services with mixed audiences",
+      "Static sites plus form SaaS keep ownership simple for personal-brand clients",
+    ],
+    futureImprovements: [
+      "Calendar booking integration for consultations",
+      "Expanded media gallery with talks and workshop content",
+      "Analytics on CTA and form conversion rates",
+      "CMS-backed content updates for testimonials and FAQs",
+    ],
+    screenshots: [
+      { label: "Brand Home", variant: "dashboard" },
+      { label: "Services", variant: "admin" },
+      { label: "Mobile Layout", variant: "mobile" },
+      { label: "Consultation Form", variant: "scheduling" },
+    ],
+  },
 ];
 
 export function getProjectBySlug(slug: string): ProjectCaseStudy | undefined {
